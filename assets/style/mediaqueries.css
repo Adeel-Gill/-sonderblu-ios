@@ -1,0 +1,49 @@
+@media (max-width:768px) {
+    div#home div.row div.form {
+        padding: 0 !important;
+    }
+
+    div#home div.row div.form form {
+        width: 100% !important;
+        border-radius: 0 !important;
+    }
+
+    div#home div.slider {
+        padding: 0;
+    }
+
+    div#home div.slider div.carousel-inner {
+        background-color: white;
+        border-radius: 0;
+    }
+
+    div#Body div.row div.content div.Content div.Brand div.text {
+        width: 100% !important;
+    }
+
+    div#Body div.row div.content div.Content div.Brand div.text p {
+        margin: 0 !important;
+
+    }
+    div#Body div.row div.content div.Content div.Brand div.text span{
+        color: #546E7A;
+        margin: 10px 0;
+    }
+    div#Body div.row div.content div.Content div.Brand {
+        flex-direction: column;
+    }
+
+    div#Body div.row div.content div.Content div.Brand div.logo {
+        height: auto !important;
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+    }
+
+    div#Body div.row div.content div.Content div.Brand div.logo img {
+        width: 70% !important;
+    }
+}
